@@ -1,0 +1,16 @@
+  133  gitcreds::gitcreds_set()\n
+  134  ssh -keygen -t rsa -b 2048
+  135  ssh-keygen -t rsa -b 2048
+  136  cd
+  137  cd .ssh
+  138  ls
+  139  nano id_rsa.pub
+  140  cat id_rsa.pub
+  141  git remote add origin git@github.com:MONOUE/Git-assignment.git
+  142  cd AMMI-git
+  143  git remote add origin git@github.com:MONOUE/Git-assignment.git
+  144  cd ..
+  145  ls
+  146  cd AMMI-git
+  147  git remote add origin git@github.com:MONOUE/Git-assignment.git
+  148  git push -u origin master
